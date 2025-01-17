@@ -99,7 +99,7 @@ int main(void)
   while (1)
   {
 		
-		if (counter ==1000) {
+		if (counter ==500) {
 				HAL_GPIO_TogglePin(RGB_LD1_GPIO_Port,RGB_LD1_Pin); // toggle led
 				
 				counter = 0;
