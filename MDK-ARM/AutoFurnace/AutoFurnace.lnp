@@ -1,0 +1,26 @@
+--cpu Cortex-M0+
+"autofurnace\startup_stm32l073xx.o"
+"autofurnace\main.o"
+"autofurnace\stm32l0xx_it.o"
+"autofurnace\stm32l0xx_hal_msp.o"
+"autofurnace\stm32l0xx_hal_tim.o"
+"autofurnace\stm32l0xx_hal_tim_ex.o"
+"autofurnace\stm32l0xx_hal.o"
+"autofurnace\stm32l0xx_hal_i2c.o"
+"autofurnace\stm32l0xx_hal_i2c_ex.o"
+"autofurnace\stm32l0xx_hal_rcc.o"
+"autofurnace\stm32l0xx_hal_rcc_ex.o"
+"autofurnace\stm32l0xx_hal_flash_ramfunc.o"
+"autofurnace\stm32l0xx_hal_flash.o"
+"autofurnace\stm32l0xx_hal_flash_ex.o"
+"autofurnace\stm32l0xx_hal_gpio.o"
+"autofurnace\stm32l0xx_hal_dma.o"
+"autofurnace\stm32l0xx_hal_pwr.o"
+"autofurnace\stm32l0xx_hal_pwr_ex.o"
+"autofurnace\stm32l0xx_hal_cortex.o"
+"autofurnace\stm32l0xx_hal_exti.o"
+"autofurnace\system_stm32l0xx.o"
+--strict --scatter "AutoFurnace\AutoFurnace.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "AutoFurnace.map" -o AutoFurnace\AutoFurnace.axf
