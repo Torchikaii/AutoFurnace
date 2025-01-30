@@ -59,12 +59,20 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define VCC_MAX6675_Pin GPIO_PIN_1
 #define VCC_MAX6675_GPIO_Port GPIOB
+#define V_Pin GPIO_PIN_12
+#define V_GPIO_Port GPIOB
 #define CS_Pin GPIO_PIN_13
 #define CS_GPIO_Port GPIOB
 #define SCK_Pin GPIO_PIN_14
 #define SCK_GPIO_Port GPIOB
 #define SO_Pin GPIO_PIN_15
 #define SO_GPIO_Port GPIOB
+#define G_Pin GPIO_PIN_8
+#define G_GPIO_Port GPIOA
+#define K_Pin GPIO_PIN_9
+#define K_GPIO_Port GPIOA
+#define Tw_Pin GPIO_PIN_10
+#define Tw_GPIO_Port GPIOA
 #define Button_2_Kamami_Pin GPIO_PIN_5
 #define Button_2_Kamami_GPIO_Port GPIOB
 #define Button_2_Kamami_EXTI_IRQn EXTI4_15_IRQn

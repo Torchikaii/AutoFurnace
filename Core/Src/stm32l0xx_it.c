@@ -133,6 +133,9 @@ void SysTick_Handler(void)
 	s_counter++;
 	m_counter++;
 	h_counter++;
+	pellets_counter++;
+	
+	
   /* USER CODE END SysTick_IRQn 1 */
 }
 
