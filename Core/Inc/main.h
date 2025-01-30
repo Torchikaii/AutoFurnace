@@ -57,6 +57,17 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define VCC_MAX6675_Pin GPIO_PIN_1
+#define VCC_MAX6675_GPIO_Port GPIOB
+#define CS_Pin GPIO_PIN_13
+#define CS_GPIO_Port GPIOB
+#define SCK_Pin GPIO_PIN_14
+#define SCK_GPIO_Port GPIOB
+#define SO_Pin GPIO_PIN_15
+#define SO_GPIO_Port GPIOB
+#define Button_2_Kamami_Pin GPIO_PIN_5
+#define Button_2_Kamami_GPIO_Port GPIOB
+#define Button_2_Kamami_EXTI_IRQn EXTI4_15_IRQn
 #define RGB_LD4_Pin GPIO_PIN_6
 #define RGB_LD4_GPIO_Port GPIOB
 #define RGB_LD3_Pin GPIO_PIN_7
